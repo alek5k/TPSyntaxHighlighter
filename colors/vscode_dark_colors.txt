@@ -1,0 +1,291 @@
+            
+
+These dict entries can be put into the tmLanguage file to see how the editor will colorize the theme.
+More info for the types here:
+
+http://manual.macromates.com/en/language_grammars#naming_conventions.html
+
+The actual text that will get highlighted:
+===========================================
+comment.line
+comment.block
+
+constant.numeric
+constant.character
+constant.language
+constant.other
+
+entity.name
+entity.other
+
+invalid.illegal
+invalid.deprecated
+
+keyword.control
+keyword.operator
+keyword.other
+
+markup.underline.link
+markup.bold
+markup.heading
+markup.italic
+markup.list.numbered
+markup.list.unnumbered
+markup.quote
+markup.raw
+markup.other
+
+storage.type
+storage.modifier
+
+string.quoted
+string.unquoted
+string.interpolated
+string.regexp
+string.other
+
+support.function
+support.class
+support.type
+support.constant
+support.variable
+support.other
+
+variable.parameter
+variable.language
+variable.other
+
+The tmLanguage entries:
+=======================
+
+            <dict>
+                <key>match</key>
+                <string>comment.line</string>
+                <key>name</key>
+                <string>comment.line</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>comment.block</string>
+                <key>name</key>
+                <string>comment.block</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>constant.numeric</string>
+                <key>name</key>
+                <string>constant.numeric</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>constant.character</string>
+                <key>name</key>
+                <string>constant.character</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>constant.language</string>
+                <key>name</key>
+                <string>constant.language</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>constant.other</string>
+                <key>name</key>
+                <string>constant.other</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>entity.name</string>
+                <key>name</key>
+                <string>entity.name</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>entity.other</string>
+                <key>name</key>
+                <string>entity.other</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>invalid.illegal</string>
+                <key>name</key>
+                <string>invalid.illegal</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>invalid.deprecated</string>
+                <key>name</key>
+                <string>invalid.deprecated</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>keyword.control</string>
+                <key>name</key>
+                <string>keyword.control</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>keyword.operator</string>
+                <key>name</key>
+                <string>keyword.operator</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>keyword.other</string>
+                <key>name</key>
+                <string>keyword.other</string>
+            </dict>
+            
+            <dict>
+                <key>match</key>
+                <string>markup.underline.link</string>
+                <key>name</key>
+                <string>markup.underline.link</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>markup.bold</string>
+                <key>name</key>
+                <string>markup.bold</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>markup.heading</string>
+                <key>name</key>
+                <string>markup.heading</string>
+            </dict>
+            
+            <dict>
+                <key>match</key>
+                <string>markup.italic</string>
+                <key>name</key>
+                <string>markup.italic</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>markup.list.numbered</string>
+                <key>name</key>
+                <string>markup.list.numbered</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>markup.list.unnumbered</string>
+                <key>name</key>
+                <string>markup.list.unnumbered</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>markup.quote</string>
+                <key>name</key>
+                <string>markup.quote</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>markup.raw</string>
+                <key>name</key>
+                <string>markup.raw</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>markup.other</string>
+                <key>name</key>
+                <string>markup.other</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>storage.type</string>
+                <key>name</key>
+                <string>storage.type</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>storage.modifier</string>
+                <key>name</key>
+                <string>storage.modifier</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>string.quoted</string>
+                <key>name</key>
+                <string>string.quoted</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>string.unquoted</string>
+                <key>name</key>
+                <string>string.unquoted</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>string.interpolated</string>
+                <key>name</key>
+                <string>string.interpolated</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>string.regexp</string>
+                <key>name</key>
+                <string>string.regexp</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>string.other</string>
+                <key>name</key>
+                <string>string.other</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>support.function</string>
+                <key>name</key>
+                <string>support.function</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>support.class</string>
+                <key>name</key>
+                <string>support.class</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>support.type</string>
+                <key>name</key>
+                <string>support.type</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>support.constant</string>
+                <key>name</key>
+                <string>support.constant</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>support.variable</string>
+                <key>name</key>
+                <string>support.variable</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>support.other</string>
+                <key>name</key>
+                <string>support.other</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>variable.parameter</string>
+                <key>name</key>
+                <string>variable.parameter</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>variable.language</string>
+                <key>name</key>
+                <string>variable.language</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>variable.other</string>
+                <key>name</key>
+                <string>variable.other</string>
+            </dict>
