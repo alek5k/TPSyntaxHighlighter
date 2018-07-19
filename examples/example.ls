@@ -16,6 +16,7 @@ CONTROL_CODE            = 00000000 00000000;
    :       ABORT;
    :       END;
    :    ENDIF;
+   : ENDFOR;
 
    : ! Functions;
    : CALL BINPICKING(1, R[30], 'AREASENSOR2');
