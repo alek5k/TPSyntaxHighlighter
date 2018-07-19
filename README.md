@@ -13,10 +13,12 @@ File extensions recognized:
 
 ## Autocompletion
 This shows the supported autocompletions:
+
 ![autocompletions](images/autocompletion.gif)
 
 ## Output
 The highlights that are currently supported:
+
 ![Highlights](images/Example.PNG)
 
 
