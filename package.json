@@ -4,7 +4,7 @@
 	"publisher": "alekskrnjaic",
 	"repository": "https://github.com/alek5k/TPSyntaxHighlighter",
 	"engines": {
-		"vscode": "^1.8.0"
+		"vscode": "*"
 	},
 	"contributes": {
 		"languages": [
