@@ -1,0 +1,30 @@
+{
+	"name": "fanuctplanguage",
+	"version": "0.2.0",
+	"publisher": "alekskrnjaic",
+	"repository": "https://github.com/alek5k/TPSyntaxHighlighter",
+	"engines": {
+		"vscode": "^1.8.0"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "fanuctp",
+				"extensions": [
+					".ls"
+				],
+				"aliases": [
+					"Fanuc TP Program"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "fanuctp",
+				"scopeName": "source.fanuctp",
+				"path": "./syntaxes/fanuctp.tmLanguage"
+			}
+		]
+	}
+}
