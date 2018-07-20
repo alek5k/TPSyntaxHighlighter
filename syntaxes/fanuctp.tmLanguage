@@ -110,7 +110,7 @@
             <!-- IF, THEN, ELSE, END, ENDIF,  -->
             <dict> 
                 <key>match</key>
-                <string>(?<=:)\s*(IF|FOR)</string>
+                <string>(?<=:)\s*(IF|FOR)(?=(\s|\())</string>
                 <key>name</key>
                 <string>keyword.control</string>
             </dict>
@@ -131,7 +131,7 @@
             <!-- LBL -->
             <dict> 
                 <key>match</key>
-                <string>(JMP\s*)?LBL\[\d+\](?=;)</string>
+                <string>(JMP\s*)?LBL\[.+\](?=;)</string>
                 <key>name</key>
                 <string>keyword.control</string>
             </dict>
@@ -139,7 +139,7 @@
             <!-- WAIT/VISION-->
             <dict> 
                 <key>match</key>
-                <string>(?<=:)\s*(WAIT|VISION(\s*)(\S*))</string>
+                <string>(?<=:)\s*(WAIT|VISION(\s*)(\S*)|FORCE(\s*)(\S*))</string>
                 <key>name</key>
                 <string>support.function</string>
             </dict>
@@ -148,6 +148,14 @@
             <dict> 
                 <key>match</key>
                 <string>(CALL|RUN)\s+[a-zA-Z0-9_]*\(?</string>
+                <key>name</key>
+                <string>support.function</string>
+            </dict>
+
+            <!-- MESSAGE -->
+            <dict> 
+                <key>match</key>
+                <string>(?<=:)\s*(MESSAGE)\[.*\]\s*(?=;)</string>
                 <key>name</key>
                 <string>support.function</string>
             </dict>
