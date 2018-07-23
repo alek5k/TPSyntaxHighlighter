@@ -6,6 +6,12 @@ CONTROL_CODE            = 00000000 00000000;
 /MN
    : ! Registers ;
    : R[5] = R[AR[40]];
+   : VR[5];
+   : PR[5];
+   : RO[1]=ON;
+   : RI[1];
+   : DI[1];
+   : DO[1] = OFF;
 
    : ! Control Flow;
    : LBL[300];

@@ -34,10 +34,16 @@
                 <string>support.class</string>
             </dict>
 
-            <!-- Register -->
+            <!-- Register/Input -->
             <dict>
                 <key>match</key>
                 <string>P?V?A?S?R\[.*?\]\]*</string>
+                <key>name</key>
+                <string>support.variable</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>D?R?A?G?U?S?(I|O)\[.*?\]\]*</string>
                 <key>name</key>
                 <string>support.variable</string>
             </dict>
@@ -54,6 +60,13 @@
                 <string>\d(\s)*(\.)?(\s)*(%|mm|deg|cm|m|mm|sec)?(\/(min|sec))?</string>
                 <key>name</key>
                 <string>constant.numeric</string>
+            </dict>
+            <!-- ON/OFF -->
+            <dict>
+                <key>match</key>
+                <string>(?<=\=)\s*(ON|OFF)</string>
+                <key>name</key>
+                <string>constant.language</string>
             </dict>
 
             <!-- Motion Instructions -->
