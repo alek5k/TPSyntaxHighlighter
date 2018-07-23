@@ -38,6 +38,7 @@ CONTROL_CODE            = 00000000 00000000;
    : WAIT 5sec;
    : FORCE CTRL[2:JIG];
    : MESSAGE[A user message];
+   : UALM[3];
 
 /POS
 /END

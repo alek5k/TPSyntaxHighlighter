@@ -152,10 +152,10 @@
                 <string>support.function</string>
             </dict>
 
-            <!-- MESSAGE -->
+            <!-- MESSAGE/UALM -->
             <dict> 
                 <key>match</key>
-                <string>(?<=:)\s*(MESSAGE)\[.*\]\s*(?=;)</string>
+                <string>(?<=:)\s*(MESSAGE|UALM)\[.*\]\s*(?=;)</string>
                 <key>name</key>
                 <string>support.function</string>
             </dict>
