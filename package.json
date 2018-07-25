@@ -2,7 +2,7 @@
 	"name": "fanuctplanguage",
 	"displayName": "Fanuc TP Language",
 	"description": "Fanuc Robotics TP language syntax highlighter",
-	"version": "0.8.0",
+	"version": "0.9.0",
 	"publisher": "alekskrnjaic",
 	"repository": "https://github.com/alek5k/TPSyntaxHighlighter",
 	"engines": {
