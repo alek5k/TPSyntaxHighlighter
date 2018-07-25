@@ -35,9 +35,10 @@ CONTROL_CODE            = 00000000 00000000;
    : L PR[3] 100cm/min FINE INC;
    : L PR[3] 100cm/min FINE VOFFSET, VR[1];
    : L PR[3] 100cm/min FINE OFFSET, PR[1];
+   : L PR[3] 100cm/min FINE TOOL_OFFSET, PR[1];
    : C PR[3] PR[4] 100mm/sec FINE; 
    : A PR[3] 100cm/sec CNT100;
-      
+
    : ! Vision & Other;
    : VISION RUN_FIND 'PROCESSNAME';
    : VISION GET_NFOUND 'PROCESSNAME' R[52];

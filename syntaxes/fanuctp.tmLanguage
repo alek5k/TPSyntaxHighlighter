@@ -84,7 +84,7 @@
             </dict>
             <dict>
                 <key>match</key>
-                <string>(FINE|CNT\d*\s*(INC)?)\s*(OFFSET|VOFFSET)?\s*(?=,)</string>
+                <string>(FINE|CNT\d*\s*(INC)?)\s*(OFFSET|VOFFSET|TOOL_OFFSET)?\s*(?=,)</string>
                 <key>name</key>
                 <string>invalid.illegal</string>
             </dict>
