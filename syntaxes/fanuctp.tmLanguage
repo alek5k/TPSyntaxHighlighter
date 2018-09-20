@@ -49,11 +49,18 @@
             </dict>
             <dict>
                 <key>match</key>
-                <string>P\[.*?\]\]*</string>
+                <string>P?F?\[.*?\]\]*</string>
                 <key>name</key>
                 <string>support.variable</string>
             </dict>
-            
+            <!-- Timer -->
+            <dict>
+                <key>match</key>
+                <string>(TIMER)\[.*?\]\]*</string>
+                <key>name</key>
+                <string>keyword.control</string>
+            </dict>
+
             <!-- Number -->
             <dict>
                 <key>match</key>
