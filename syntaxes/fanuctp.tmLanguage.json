@@ -57,11 +57,11 @@
       "name": "comment.block"
     },
     {
-      "match": "\\'.*\\'",
+      "match": "\\'.*?\\'",
       "name": "string.quoted"
     },
     {
-      "match": "\\\".*\\\"",
+      "match": "\\\".*?\\\"",
       "name": "string.quoted"
     },
     {
